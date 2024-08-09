@@ -18,6 +18,7 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+	implementation ("io.github.cdimascio:dotenv-java:3.0.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	"developmentOnly"("org.springframework.boot:spring-boot-devtools")
 }
